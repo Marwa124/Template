@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css" >
+        <link rel="stylesheet" href="css/index_style.css">
+        <link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
+        <link rel="stylesheet" href="css/test.css">
+        
+        
+    </head>
+    
+    <body > 
+        <section id="myCountdown" class="my-5 text-center" >
+            <div class="container-fluid paint">
+                <div class="row">
+                    <div class="col-md-3 py-5 del trim ">
+                       <div class="days spot"></div>
+                    </div>
+                    <div class="col-md-3 py-5 del " >
+                       <div class="hours spot "></div>
+                    </div>
+                    <div class="col-md-3 py-5 del" >
+                       <div class="minutes spot"></div>
+                    </div>
+                    <div class="col-md-3 py-5 del" >
+                       <div class="seconds spot"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+           
+        
+        
+        
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/jquery.countdown.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>        
+        
+        <script type="text/javascript">
+          $("#myCountdown")
+          .countdown("2018/10/4", function(event) {
+            $('.days').text(
+              event.strftime('%D Days')
+            );
+            $('.hours').text(
+              event.strftime('%H Hours')
+            );
+            $('.minutes').text(
+              event.strftime('%M Mins')
+            );
+            $('.seconds').text(
+              event.strftime('%S Sec')
+            );
+          });
+        </script>
+    </body>
+</html>
