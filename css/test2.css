@@ -67,3 +67,45 @@
 .trim{
     display: none;
 }
+
+
+#acc {
+    margin: 100px auto;
+    width: 50%;
+}
+#acc h3{
+    background-color: #d62e3399;
+    bottom: -8px;
+    position: relative; 
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    color: #fff;
+    border-bottom: solid 2px firebrick;
+}
+#acc div{
+    bottom: -8px;
+    position: relative;
+    
+    background-color: #cccccc;
+}
+textarea{
+    height: 200px;
+    width: 540px;
+}
+.cor{
+    color: red;
+}
+button{
+    padding: 5px;
+    background-color: #d62e3399;
+}
+button:hover{
+    background-color: firebrick;
+}
+
+
+
+
+
+
