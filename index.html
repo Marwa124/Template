@@ -3,56 +3,46 @@
         <link rel="stylesheet" href="css/bootstrap.min.css" >
         <link rel="stylesheet" href="css/index_style.css">
         <link rel="stylesheet" href="css/fontawesome-all.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
-        <link rel="stylesheet" href="css/test.css">
+        
+       <link rel="stylesheet" href="css/test2.css">
         
         
     </head>
     
-    <body > 
-        <section id="myCountdown" class="my-5 text-center" >
-            <div class="container-fluid paint">
-                <div class="row">
-                    <div class="col-md-3 py-5 del trim ">
-                       <div class="days spot"></div>
-                    </div>
-                    <div class="col-md-3 py-5 del " >
-                       <div class="hours spot "></div>
-                    </div>
-                    <div class="col-md-3 py-5 del" >
-                       <div class="minutes spot"></div>
-                    </div>
-                    <div class="col-md-3 py-5 del" >
-                       <div class="seconds spot"></div>
-                    </div>
-                </div>
+    <body >  
+        
+        
+        <section id="cover" class="text-center">
+            <img src="events-heavenly-header.jpg"/>
+                
+            
+            <div class="option ml-3 fa-2x text-white"> 
+                <div class="page-options ">
+                <a href="#" id="home" >Home</a><br/><br/>
+                <a href="#" id="duration">Duration</a><br/><br/>
+                <a href="#" id="details">Details</a><br/><br/>
+                <a href="#" id="contact">Contact</a>
+                
+            
+                   <a href="#"> <i class="fas fa-times st"></i> </a>
+            
             </div>
+                
+                <a><i class="fas fa-bars mg"></i> open</a>
+
+            </div>
+            <div class="spot" >
+                <h2 class="fa-3x pb-2">Ù <i class="fa fa-heart" style="color: red"></i> Egyption Party</h2>
+                <p>Let's have Fun</p>
+            </div>
+            
         </section>
-           
         
         
         
+     <script src="js/popper.min.js"></script>
         <script src="js/jquery-3.3.1.min.js"></script>
-        <script src="js/jquery.countdown.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>        
-        
-        <script type="text/javascript">
-          $("#myCountdown")
-          .countdown("2018/10/4", function(event) {
-            $('.days').text(
-              event.strftime('%D Days')
-            );
-            $('.hours').text(
-              event.strftime('%H Hours')
-            );
-            $('.minutes').text(
-              event.strftime('%M Mins')
-            );
-            $('.seconds').text(
-              event.strftime('%S Sec')
-            );
-          });
-        </script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/test2.js"></script>
     </body>
 </html>
